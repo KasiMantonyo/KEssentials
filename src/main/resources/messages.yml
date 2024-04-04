@@ -1,0 +1,51 @@
+messages:
+  no-permission: "&cYou do not have permission to perform this command."
+  disable-sections: "&cThat function is disabled!"
+  player-not-found: "&cThat player does not exist."
+
+  # Gamemodes
+  gamemode-changed: "&cYour gamemode has been updated" # You can use the placeholder %gamemode%
+  invalid-gamemode: "&cInvalid Gamemode!"
+  gamemode-usage: "Bad usage! use /gamemode (creative/survival/adventure/spectator)"
+
+  #Staff Chat
+  staff-chat-format: "&c&lSTAFFCHAT &8|| &f%player% &8: &f"
+  staff-chat-use: "&cBad usage! use /staffchat (message)"
+
+  #Tp Messages
+  tp-usage: "&cBad usage! use /tp (player)"
+  teleport-msg: "&fTeleported to &e%player%&r&f!"
+
+  #Ping Messages
+  ping-message: "&eYour ping is %ping%ms"
+
+  # ClearChat Message
+  clearchat-message: "&eThe chat has been cleared by %player%"
+
+  #Invsee Messages
+  invsee-bad-usage: "&cBad Usage! please use /invsee (player)"
+
+  #Health Message
+  health-healed: "&aYou´ve been healed"
+  health-bad-usage: "&cBad usage! Use /health (player)"
+
+  # Feed Message
+  feed-success: "&aYou´ve been feeded"
+  feed-bad-usage: "&cBad usage! use /feed (player)"
+
+  # Fly Messages
+  fly-enabled: "&eFly enabled!"
+  fly-disabled: "&cFly disabled!"
+
+  # Tpa Messages
+  tpa-bad-usage: "&cBad usage! use /tpa (player) as principal or /tpa deny/accept"
+  cannot-tpa-yourself: "&cYou cannot tpa yourself!"
+  no-tpa-requests: "&cYou do not have any tpa requests!"
+  tpa-deny-enabled: "&cThis player has tpa notifications disabled."
+  teleporting-player:
+    - "&aYou sent a tpa request to %target%, they have 45 seconds to accept!"
+  teleporting-target:
+    - "&aThe player %player% sent you a tpa request, use /tpaccept to accept!"
+  tpa-accepted: "&aTpa accepted!"
+
+

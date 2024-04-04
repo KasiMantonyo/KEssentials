@@ -1,0 +1,60 @@
+version: 1.0.0 # Dont touch this pls
+
+#MOTD/Welcome Message when join!
+welcome-message:
+  - "      &e&lMY SERVER"
+  - ""
+  - "&fHello! welcome to my server."
+  - "&fHope you &e&nenjoy&r&f!"
+  - ""
+  - "    &emc.myserver.com"
+welcome-message-enabled: true
+
+# Rules command
+rules:
+      - "&e&lRULES"
+      - ""
+      - "&fRule #1"
+      - "&fRule #2"
+      - "&fRule #3"
+      - "&fRule #4"
+      - "&fRule #5"
+rules-sound: NOTE_PLING # Use NONE to disable.
+rules-enabled: true
+
+# Messages when join or leave
+join-message: "&e&lWELCOME &8|| &f%player_name% joined to the server!"
+join-sound: NOTE_PLING # Use NONE to disable
+
+quit-message: "&c&lBYE &8|| &f%player_name% left..."
+quit-sound: NOTE_PLING # Use NONE to disable
+
+message-join-and-leave: true
+
+ChatFormat:
+  chatformat-enabled: true
+  chat-format: "&f%player% &8| &e{MESSAGE}"
+
+frozen-gui:
+  title: "&8Frozen" # titulo del menu
+  size: 9 # modificable size del menu
+  item:
+    id: 79 # Id del item, puede ser cualquiera.
+    name: "&aYou have been frozen!" # nombre del item
+    slot: 5 # slot del item modificable
+    lore:
+      - "&8Frozen item" # descripción
+      - "&f"
+      - "&fYou have been frozen!"
+      - "&fplease join to our discord for support."
+
+
+
+BlockCommands:
+  - /blockedcommands
+
+
+
+
+
+

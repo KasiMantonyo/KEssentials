@@ -1,3 +1,62 @@
 name: KEssentials
 version: '${project.version}'
 main: org.kasimantonyo.kessentials.KEssentials
+description: A core plugin inspired by EssentialsX
+author: Kasi777
+commands:
+  gm:
+    description: Change your gamemode.
+    usage: /gm <gamemode>
+  download:
+    description: Download command
+    usage: /download
+  staffchat:
+    description: StaffChat Command
+    usage: /staffchat
+    aliases:
+      - sc
+  rules:
+    description: Rules Command
+    usage: /rules
+  tp:
+    description: TP Command
+    usage: /tp
+  kessentials:
+    description: KEssentials Command
+    usage: /kessentials
+  ping:
+    description: Ping Command
+    usage: /ping
+  clearchat:
+    description: ClearChat Command
+    usage: /clearchat
+  invsee:
+    description: InvSee Command
+    usage: /invsee
+  heal:
+    description: Heal Command
+    usage: /heal
+  feed:
+    description: Feed Command
+    usage: /feed
+  hologram:
+    description: Hologram Command
+    usage: /hologram
+  workbench:
+    description: Workbench Command
+    usage: /workbench
+  fly:
+    description: Fly Command
+    usage: /fly
+  tpa:
+    description: Tpa Command
+    usage: /tpa
+  tpaccept:
+    description: Tpa Command
+    usage: /tpaccept
+
+
+
+
+
+

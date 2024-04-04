@@ -1,0 +1,11 @@
+# Sounds in action of player (BETA)
+
+death-sound: NOTE_PLING #Who sound should I play when player death?
+death-volume: 1 #How high the sound should be?
+death-pitch: 1 #How faster the sound should be?
+death-sound-enabled: true # Enabled or true ?
+
+hotbar-sound: NOTE_PLING
+hotbar-volume: 1
+hotbar-pitch: 1
+hotbar-sound-enabled: true

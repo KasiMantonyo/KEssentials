@@ -1,2 +1,4 @@
-package handlers;public class A {
+package handlers;
+
+public class A {
 }
